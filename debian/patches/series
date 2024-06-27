@@ -2,3 +2,4 @@
 0002-Fix-build-on-powerpc-and-ppc64.patch
 ffmpeg-4.3.6-rpi_21.patch
 fix_flags.diff
+0003-tests-fix-sand-rpi.patch

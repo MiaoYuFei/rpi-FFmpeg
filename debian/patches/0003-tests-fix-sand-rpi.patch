@@ -1,0 +1,39 @@
+diff -ruN a/tests/ref/fate/sws-pixdesc-query b/tests/ref/fate/sws-pixdesc-query
+--- a/tests/ref/fate/sws-pixdesc-query	2024-06-27 18:24:28.617655894 +0000
++++ b/tests/ref/fate/sws-pixdesc-query	2024-06-27 18:24:52.516316356 +0000
+@@ -17,6 +17,7 @@
+   rgb48le
+   rgba64be
+   rgba64le
++  sand64_16
+   ya16be
+   ya16le
+   yuv420p16be
+@@ -57,6 +58,7 @@
+   nv20le
+   p010be
+   p010le
++  sand64_10
+   xyz12be
+   xyz12le
+   y210be
+@@ -187,6 +189,9 @@
+   p010le
+   p016be
+   p016le
++  sand128
++  sand64_10
++  sand64_16
+   uyvy422
+   uyyvyy411
+   xyz12be
+@@ -687,6 +692,9 @@
+   rgb8
+   rgba64be
+   rgba64le
++  sand128
++  sand64_10
++  sand64_16
+   uyvy422
+   uyyvyy411
+   xyz12be
