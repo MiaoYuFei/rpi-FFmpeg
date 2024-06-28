@@ -1,0 +1,17 @@
+diff --git a/configure b/configure
+index 74bd0a22..12c4da27 100755
+--- a/configure
++++ b/configure
+@@ -6580,10 +6580,10 @@ enabled libfontconfig     && require_pkg_config libfontconfig fontconfig "fontco
+ enabled libfreetype       && require_pkg_config libfreetype freetype2 "ft2build.h FT_FREETYPE_H" FT_Init_FreeType
+ enabled libfribidi        && require_pkg_config libfribidi fribidi fribidi.h fribidi_version_info
+ enabled libglslang && { check_lib spirv_compiler glslang/Include/glslang_c_interface.h glslang_initialize_process \
+-                            -lglslang -lMachineIndependent -lOSDependent -lHLSL -lOGLCompiler -lGenericCodeGen \
++                            -lglslang -lMachineIndependent -lGenericCodeGen \
+                             -lSPVRemapper -lSPIRV -lSPIRV-Tools-opt -lSPIRV-Tools -lpthread -lstdc++ -lm ||
+                         require spirv_compiler glslang/Include/glslang_c_interface.h glslang_initialize_process \
+-                            -lglslang -lOSDependent -lHLSL -lOGLCompiler \
++                            -lglslang -lMachineIndependent -lOSDependent -lHLSL -lOGLCompiler \
+                             -lSPVRemapper -lSPIRV -lSPIRV-Tools-opt -lSPIRV-Tools -lpthread -lstdc++ -lm; }
+ enabled libgme            && { check_pkg_config libgme libgme gme/gme.h gme_new_emu ||
+                                require libgme gme/gme.h gme_new_emu -lgme -lstdc++; }

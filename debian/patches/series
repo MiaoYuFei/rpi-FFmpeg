@@ -1,1 +1,4 @@
 ffmpeg-5.1.4-rpi_24.patch
+0001-configure-fix-compilation-with-glslang-14.patch
+0002-libavfilter-remove-force_icc_lut.patch
+0003-tests-fix-sand-rpi.patch
